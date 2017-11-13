@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<title>GifTastic</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div class="container">
+		
+		<div class="jumbotron">
+  			<h1>GifTastic Foods!</h1>
+  			<p>Click the buttons for Gifs of your favorite food, or search for other foods to create buttons of your own!</p>
+  		</div>
+
+  		<div class="row" id="buttonPanel"></div>
+
+  		<div class="row">
+  			<div class="col-lg-10" id="gifPanel"></div>
+  			<div class="col-lg-2" id="formPanel"> 
+        		<form id="food-form">
+          			<label for="food-input" class="inputLabel">Add a food</label>
+          			<input type="text" id="food-input"><br>
+          			<input id="add-food" type="submit" value="Submit">
+        		</form>
+  			</div>
+  		</div>
+
+  		<div class="row">
+  			<div id="footerSpace"></div>
+
+      		<div class="footer navbar-fixed-bottom" id="footerPanel">
+        		<div class="creator">
+        		© 2017, Dimitri Kontos 
+  				</div>
+      		</div>
+  			
+  		</div>
+
+
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="logic.js"></script>
+
+</body>
+</html>
